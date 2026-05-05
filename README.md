@@ -1,42 +1,74 @@
-# Tutorial
+# Exercises
 
-A hands-on tutorial for spectral parameterization and related ideas.
+Hands-on exercises for working with spectral parameterization.
 
 ## Overview
 
-This repository contains a hands-on tutorial for learning
+This repository contains hands-on exercises for learning and working with
+spectral parameterization (['specparam'](github.com/fooof-tools/)).
 
-It's organized around the following core topics:
-- `Setup`: Check that everything is installed & working
-- `SpecParamModel`: Introducing spectral parameterization
-- `Simulations`: Exploring using simulations to test method properties
-- `Applications`: Exploring applications of spectral parameterization
+Note that these materials are _not_ the official tutorials for specparam, which are
+available on the [docsite](https://specparam-tools.github.io/).
+Those tutorial materials contain detailed descriptions of the module and functionality,
+and can be downloaded as executable notebooks to work with.
 
-This tutorial was created and is maintained by
-[Tom Donoghue](https://tomdonoghue.github.io/).
-
-## Links
-
-Related materials:
-- [specparam documentation](https://fooof-tools.github.io/)
-- [neurodsp documentation](https://neurodsp-tools.github.io/)
-- [oscillation methods project](https://oscillationmethods.github.io)
-- [aperiodic methods project](https://aperiodicmethods.github.io)
-- [signal visualizers](https://tomdonoghue.github.io/SigViz/)
+These materials are a set of _exercises_, designed to supplement the documentation materials
+by offering a set of notebooks that can be worked through, asking the user to write code
+to explore and practice the use of spectral parameterization.
 
 ## Requirements
 
-This tutorial requires:
+This set of exercises requires the Python programming language (version >= 3.7).
+
+These exercises have the following dependencies:
+
 - [specparam](https://github.com/fooof-tools/fooof)
 - [neurodsp](https://github.com/neurodsp-tools/neurodsp)
 
 ### Installation
 
-For example, to create a new conda environment, you can run:
-`conda create --name tutorial python=3.8 anaconda`
+If you already have a Python install with an environment you'd like to use,
+you just need to install the dependencies, which can be done with `pip`.
 
-To then activate this environment, type:
-`conda activate tutorial`
+```
+# Install
+pip install specparam, neurodsp
+```
 
-To then install the remaining required packages, run:
-`pip intall fooof, neurodsp`
+If you want to create a new environment for working with these exercises,
+you can do so with a tool such as
+[conda](https://docs.conda.io/projects/conda/en/stable/index.html).
+
+For example, the following creates and initializes a new conda environment to run the exercises:
+
+```
+# Create a new Python environment with conda
+conda create --name exercises python=3.12 anaconda
+
+# Activate the new environment
+`conda activate exercises`
+
+# Install the remaining required packages
+pip install specparam, neurodsp
+```
+
+## Additional Materials
+
+These exercises are focused on being hands-on exercises to practice _working with_ spectral parameterization.
+For more information on _learning about_ spectral parameterization and related topics, the following additional
+resources may be useful.
+
+Documentation for the  materials:
+- [specparam documentation](https://fooof-tools.github.io/)
+- [neurodsp documentation](https://neurodsp-tools.github.io/)
+
+Additional resources, including open-source projects & visualizers:
+
+- [signal visualizers](https://timeserieszoo.github.io/)
+- [oscillation methods project](https://oscillationmethods.github.io)
+- [aperiodic methods project](https://aperiodicmethods.github.io)
+
+## References
+
+This tutorial was created and is maintained by
+[Tom Donoghue](https://tomdonoghue.github.io/).
