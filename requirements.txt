@@ -1,2 +1,2 @@
 neurodsp
-fooof
+specparam
